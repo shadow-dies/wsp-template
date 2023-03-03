@@ -1,0 +1,43 @@
+.albums {
+    padding-top: 45px;
+    margin: auto;
+    padding-left: 75px;
+    display: block;
+    min-width: 1200px;
+    max-width: 1480px;
+}
+.album-list {
+    display: flex;
+    padding: 0%;
+}
+.album-title {
+    color: #484848;
+    font-size: 28px;
+    margin-bottom: 13px;
+}
+
+.special-list-item {
+    margin-left: 0;
+    width: calc((100% - 24px * 3) / 4);
+    margin-right: 24px;
+    padding-top: 8px;
+    margin-bottom: 14px;
+    background-color: rgba(255, 255, 255, 0.71);
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+
+.special-list-item:hover {
+    padding-top:0;
+}
+
+.albem-img {
+    width: 100%;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    
+    overflow: hidden;
+}
+

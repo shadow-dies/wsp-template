@@ -1,0 +1,14 @@
+.topbanner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.banner-img {
+    
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-position: center bottom;
+    background-size: 100% 100%;
+    
+}

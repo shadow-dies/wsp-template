@@ -1,0 +1,39 @@
+* {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-family: Avenir, Segoe UI, Microsoft yahei, Helvetica, Arial, Roboto, sans-serif;
+}
+body {
+  min-width: 1000px;
+}
+
+ul {
+  list-style: none;
+}
+
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+input {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+

@@ -1,0 +1,92 @@
+.footer {
+    width: 100%;
+    background-color: #353535;
+
+}
+
+.footer-item {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 75px;
+}
+
+.footer-list-items {
+    padding: 0;
+}
+
+.wps-logo {
+    width: 135px;
+    height: 49px;
+    background-image: url(https://ds.cache.wpscdn.com/template-website/img/logo.efb82aa.png);
+    background-size: 100% 100%;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 75px;
+}
+
+.footer-title {
+    margin-top: 0;
+}
+
+.footer-copyright {
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    color: #BFBFBF;
+    font-size: 14px;
+    border-top: 1px;
+    border-style: solid;
+    border-top-color:#BFBFBF;
+}
+
+.footer-follow-us-item {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 12px;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+
+.facebook {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAe9JREFUSA1jZAACh+jZMn8Z/ncxMPx3+P+fQRIkRi3AyMjwnIGB8QAzA2PZgaWpTxhBlv35//8i0DIhalmC3RzGdyyMjPosUJ/R2DKQE/4L/WVg6GICBSN2F9FC9L8DC7XijJuTjUFBWoBBSICL4ffvvwzff/5muPPwHcPX77/gLgfZxQLnkckQBlqQH2fF4GiuhGFC3aQ9DPtP3kMRp8hCLk5WhtnNgQyiQtwohuLjAOOQfJAWZkqSZSCbKPKhrbECimu///jNcPD0fYZ3H78z/AdG2MNnH1DkQRyyLQQFp5gwD4qBTdP2MRw5+xBFDJ1DdpCKCGDG260Hb9HNx+CTbSGGSUCBv3//YRNGEaOqhSgm4+CQFIcF8VYMOqriYKPYWJkxjOwp90TxZWXfLobX776iqCPJQhkJfgZ1RVEUA5A5KnLCcC4olX749B3OhzFoFqRvP3xj+P0HM05pZuGzV59hnkKhSQrSpZsvMuw4fBtsgIggF0N2lAWKYX0LjjB8/goprF+9/YIiB+OQZOH5a89g+hjkJAUwLDx0+gEDKCjxAZoFKS5LRy3EFTJki9M/SCHtRrIdTJJGkF1AHzIeIEkXRYoZDzCBWsRAS99RZA5RmhnfgexiAjW/QS1iRkbG5bQIXpCZILNBdoDsAgD1Z405RGAEwQAAAABJRU5ErkJggg==);
+
+}
+
+.youtube {
+    background-image: url(https://ds.cache.wpscdn.com/template-website/img/youtube.f4e6413.png);
+}
+
+.twitter {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAt9JREFUSA29lktoU1EQhv9zc1OTaMGkqNWW2oVQsVBBodKCRagI4mMnbsS9LtRV8bGVLqQrXSi4UkShSxHBJxUVrVpBpd34rn3XxtYmTdI8jjNNb3qTnHPTSNKB5N5zzsx8M3Me9wiQ1NyaqxXJ+CUIsUdKuZH7SiVCiFFI2SNd7o7hY74hsQj7IIFAqSAqPwIIEnS7wZmVG8YBMINZBpdRFVFZ+ohllHrOnAJllumksJyxwCqBHetciCUl3k0mEUk4WymBPuo9uNmN7q9xR+ujW9y42OyB16QlQTIdkzj1IoJgNIXD9W5c/hTD9Hy2CyO7mW61VJvoavVgf50yngUlzqqrZQnGnWsp25vtPtw7sAZjEYnV7nQgaa/pfyXQT4aGELja5sXJxgq7fub9BPXTHsu07S/huMTxhgr4FjO3jymB3/+mFnRMQ+D8Tg+69/nQssFlt8M2f3bbPugmr6eptJ9n0n7sY8qa9dHkf5xKoqkq7bSVSsy/gT9JPB9JoD+YgkfPw++oBPtQiRLYVGXg+kAMnbu8qKxYKhtn5ZSZBQgSUCdKYCVN9pXdPp1Nwf7RufxSWkbKOewdT+LnrN7IMtY930yoy8n6SmCCKnLmZQQhWm3/I89onnWiBLLyW4ryQm8UP4rM9P1kghaXvjpaIEMP1Zuor3RUYbUsudafc7RkjWpKaumcfRXFUEgfraVnPR//iuP+oL6crOcYPh9P7XdD6OyLYrBAaUfCKXS8jlps7dMRyFZ8Hm6l/VfnUFqGHXkQxgQFWEjy9iFv8721JprXu9DgN+hIMzNfA5Wzh1TGc5TZ+DJgbJ8H5BgfDSXA52HbJjUsnpJ4Sjq3v8TxhJ7FiKi5MeNYh2qvQGPABb9HIDQvwafINzrcZ50/ldoY8jLM1eSFMzZcXBa5Puxt+uzRvXGFhFkGX1JXiEd3Rdlj8I2YVmaw3FBmMMvg6zffiKnjTjnKyz7ZNzOY9Q9kT/j9sDusTgAAAABJRU5ErkJggg==);
+}
+
+.instagram {
+    background-image: url(https://ds.cache.wpscdn.com/template-website/img/instagram.41316e3.png);
+}
+
+.footer-title{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-list-item {
+    text-decoration:none;
+    color: #bfbfbf;
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.footer-list-item:hover {
+    text-decoration:underline;
+}
+
+
+

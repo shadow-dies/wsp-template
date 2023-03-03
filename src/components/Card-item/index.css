@@ -1,0 +1,171 @@
+.template-item{
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: .3s;
+    box-shadow: 0 0 6px rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.template-item:hover {
+    margin-top: 0;
+    margin-bottom: 5px;
+    box-shadow:0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.coverimg {
+    width: 100%;
+}
+
+
+.t-icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: none;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    padding-bottom: 5%;
+    /* 阴影动画 */
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 36%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.4) 100%);
+    transition: opacity 0.3s;
+}
+
+.t-child:hover .img-container .t-icon {
+    display: flex;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 156px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.coverimg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.t_download-btn {
+    display: inline-block;
+    color: #fff;
+    background: #5fdd71;
+    width: 98px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 40%;
+    
+}
+
+.favor-btn {
+    
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #959595;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-favor {
+    transition: all 0.35s;
+    background-image: url(https://ds.cache.wpscdn.com/template-website/img/icon-favorite.1400f03.svg);
+    width: 15px;
+    height: 15px;
+    background-size: 100% 100%;
+}
+
+.t-logo {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.logo-w {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAADFElEQVRoQ+2a20sUURzHv2d2Ztf1ulnaiqlhChVBYlfJLFPpPeilKCLLh4KuZtAfEHQzCILoCt3Mlx58q9QwIyu07EIXSjZSccM017ysO7tzYufslmbK2Zq9xZy3hTPn99nP/Pb8fjNnCaWU2gcpbre78cauwCkjIkeMBCy0CtiQJ8KaSEB6HAo9eseFEVdE8k6CijUCR9YbQc42ueizTiU6qH2U+RkCyO5aJ43U9JjKpjdtSPl1J40q3T5YHTzUd003rhvnNKCnCqcozabpxjVTyblQQMa3F4jImyPg/EMZr3u0KbiL0ggqCiW0dym43OLmxA6w5F/YZAQhBE0fPLj2lD/IdDRblotYk2sApRQ7b/K3qAEZv7jZpDI8+OjB1SfagG9dIaIox6Cuu+PGWHCM//fgybHA3mJJtXe6UcbA6NQiI8a4xQxUlRmRmkBUWvugghP1MhxTwEcEeGIMcKhUQlqSMEFxj4PBDzonmw87eLyJQadbGHTvEAUokOIz3z2g4GS9jO+//f7CCh5nBCpLJWTMYNADoxTH7rqgUOBwmRHJcSxtOr8pONUgY2gcfNjAzRJwsETC3JkMeniM4vg9Gd0OVqBmJxBUlUlIMjP4z/0Mfti3ZYcFPEYEDpRIyJ7FoJ0yVaFsfROrarqFqGkUb2Lwn/oUVDfIGJGBkIPXtrmxr1hCbiqDlj0UZ+7LePvlz61AVjJBZYkEs5HB274qqG6UsTE/hAXosc0Di5lgvpVBexSKc81uPO+a/v1MTgrB/nUSTCKD7+hV0D9CsSwrRJVToRQCYcG9PcaVFjce2fheKi2wEuxZK0Ey/Lre2/94R9BL/vjduKZVRsN7Pmj/dYvTBewqEmEQGLB/hAy87qUbda88E4LzfliaKaCiUPx554Jq3N/WeoPUv3PjVtvfQfu/3KpsAdtWimqrHNS2trxAxJJMAc0dHtS0/hu0H371PEHdWV50KbgUrAcJ3jQIxbyAHiRCAcQbQwfnNaXVPN24ViZ519GN85rSap5uXCuTvOtE73Fh1B7QRu2ReLT+CeEH5u3dSGrnPQwAAAAASUVORK5CYII=);
+}
+
+.logo-e {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAACtElEQVRoQ+2azWsTQRiHf7MxJqaQamNMJWmJ7aGSUIsVLCqKYkAvIogaD3pQBAX9B1QsCtJ/oFL1qJceCirS4EEQD0VKayvWkoKpNtDYNGkgTfqRj2YzMouR0s+dZKNZ3D0m77zvk2fend1hQiilNJKexcvQR/iTIaTFLCrxMuq2wmV24JzjMGzG7SDTqTjt8PdgUcxUIu8qJpPOgLuuCyBdAR8djv9QBXQBsnVHA8jtoWe0UttjPZusbcj1gU6qKt2/YTXwvz1rmnHNuEwDWqvIFKVYmGZcMZUyE/1fxvdVO+GpbYGzygajoN/U0ep3isInBPO5FDoDvQguRDfNszyA27i3/ig8thauIhsFU0rxOODDSCLIlZML/JBlL641eKQCE/MR+MKDmEknuQquDGbGk7kUdw4u8PsuL+qrrIhlkngw2o1Mfom7oFIDuMC7DtyEXtiCvhk/ngffK8VQVB4u8EfNl6X9HtujPhztxhIViyqqxCAu8FO1+3G+7ohUdywxiVc/+xHNJP5wEJlEKTELkeZlRq8dxgUugOBG42m01jSWVJStJJOLMXyIfkVfzI9itmBc4AXaY1Y3ju9qhmObBYTI9bz2b/0yO4En42+5Z6Ao8AKCjggwyHgALUcWCMFuYw3O2tvQZLZLX70O9cMX/sQ1iyWBc1VaEawnOtxzXYTdZJGW1zsjL7jS/TNwRnnFeQKs7bL5HG4NPVUHeLXehHb3JZj1Jukp3DHWUz5wAYK0jrPeLvZiPc5u6jP2g9hpMEtp2M05HP/OlZKrVdrdXtSZrFwFNgpmy+KbqQH0Tg1y5+QCv7rnJNosTSUZZ7ALYgbjc2G8i3zGt7kpbmg2gAu8qAplGqSBl0nsumk145pxmQa0VpEpSrEwzbhiKmUmUq9x1R4XqvaAVrVH4mr9E8IvfMRKPF9jzyIAAAAASUVORK5CYII=);
+}
+
+.logo-p {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAACFUlEQVRoQ+2aTShlURzAf/cJyUJSamaykMQChaQmmpKmNHvRjGKljDQ7zcLKTqFZDJuXmSQ0S2kWRFhoamYzUhRWPiZNvdfoGR8PZ7oOG+Z5p/MOvZNzdvf2//j1e/f+O7fzPCGEIPwLlidgexVOj0jKlZYBeSXwvBmyn+CJ0J7gSw+cHCYl7y2o9Exo7MUT0/2Cre92QF9TFlThieE2kbSPRyydaRl44kOTsEu3pHXgD/2rOePOuKIB96goijIW5owbU6lYSN/4i1YorYdAimKrGGHiAv7+kTvTH1MQ2lGqpw/eHgR/p2ZynUdhZgg2vsWtqg/u743zK8AL/L+J58VtfrXrgJw8eFYsL8+iMPkeQrt35uuDK2Iph5W/gto3MnxtCWaHLQH3MV/3SfuRMIx0WATe8A4Kq+H8DD62WALuT6eWAcjKhYPf8LnLAvCUVPDHa0mdhP05A4uf7gm87CUU1UAgxlRRfSv9qZT9FFLTZcZxBMa7IRK6J/C3o+CbMrkOwzA9APubcavqj8OuCVncN3Nz5t6a4Tdm+uXl1T0h4OgA9tblGIwex4W+zNb+WL4GX52D+aBSM5NBDtykTZVazriKJZMxj9B455j8iFiZhYURkzKVaukbr2+H/Er4Ogi7a0rNTAbpg5uk0KjlwDWkJZTijCekTyPZGdeQllCKM56QPo1ki48LrT2gtfZI3NI/IfwD/SQOjjx1EVUAAAAASUVORK5CYII=);
+}
+
+.view-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABWklEQVQ4T6VTPUtDMRS9J6GC0MlBsPgxODgp9E/4MTq5CVLyYh07CYI8BMGpo88kLYqji6Mfv8BN6OYgCEoFB6eCYEmupLRFUZe+bEnOPeee5FxQzoWc9fSLoNlsLnS73QTAChHN9AWemfmmUCjYSqXy8F10SMDMMMakALaJKGPmS+/9YwRLKecBrBNRlZlPtNYRx/FuQABr7RkRzXrvN6rV6ttf1rIsmxRCXAghnpRSW0TEPQJjzB6A1U6ns1yr1T7SNB0rlUoHzJz0VADbbrf30zT9rNfr48Vi8ZaZr7XWh2g0GmXv/RURlbXWr7HAWntERIsAdNyHECyAVpIku33BKSK6l1KuRd93QohjpdT5oG1jzLsQYkkp9RLPnHPTIYSW1npigHHObYYQdvIT5LaQ+xH7nuCcO2XmuZG+MZLkDdIwNzHK3vuEmX9EGcCNlPL/KI86VLmn8QtHb/BBonjTuAAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    margin-right: 1px;
+}
+
+.t-info{
+    position: relative;
+    padding: 10px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    position: relative;
+}
+
+.sub-info {
+    position: relative;
+    height: 16px;
+    margin-top: 3px;
+}
+
+.premium-title{
+    position: absolute;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    color: #484848;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+.view-icon {
+    margin-left: 10px;
+}
+
+.view-num {
+    margin: 5px;
+    color: #888;
+    font-size: 12px;
+}
+
+
+
+
